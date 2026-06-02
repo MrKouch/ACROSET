@@ -18,7 +18,7 @@
     "examples": 129623,
     "by_source": {
       "daily_dialog": 42475,
-      "fundus": 44994,
+      "news": 44994,
       "gutenberg": 42154
     },
     "by_context_type": {
@@ -36,6 +36,42 @@
       "4": 28155,
       "5": 28004,
       "6": 27133
+    },
+    "by_span_type_and_source": {
+      "constituent": {
+        "daily_dialog": 20894,
+        "news": 22030,
+        "gutenberg": 19337
+      },
+      "random_span": {
+        "daily_dialog": 21581,
+        "news": 22964,
+        "gutenberg": 22817
+      }
+    },
+    "by_tokenization_profile_and_source": {
+      "one_token_per_word": {
+        "daily_dialog": 37732,
+        "news": 27936,
+        "gutenberg": 28563
+      },
+      "has_multi_token_word": {
+        "daily_dialog": 4743,
+        "news": 17058,
+        "gutenberg": 13591
+      }
+    },
+    "by_has_stop_words_and_source": {
+      "no": {
+        "daily_dialog": 1899,
+        "news": 5029,
+        "gutenberg": 1792
+      },
+      "yes": {
+        "daily_dialog": 40576,
+        "news": 39965,
+        "gutenberg": 40362
+      }
     }
   },
   "splits": {
@@ -43,7 +79,7 @@
       "examples": 90736,
       "by_source": {
         "daily_dialog": 29649,
-        "fundus": 31563,
+        "news": 31563,
         "gutenberg": 29524
       },
       "by_context_type": {
@@ -61,13 +97,49 @@
         "4": 19770,
         "5": 19464,
         "6": 18955
+      },
+      "by_span_type_and_source": {
+        "constituent": {
+          "daily_dialog": 14511,
+          "news": 15437,
+          "gutenberg": 13525
+        },
+        "random_span": {
+          "daily_dialog": 15138,
+          "news": 16126,
+          "gutenberg": 15999
+        }
+      },
+      "by_tokenization_profile_and_source": {
+        "one_token_per_word": {
+          "daily_dialog": 26426,
+          "news": 19541,
+          "gutenberg": 20043
+        },
+        "has_multi_token_word": {
+          "daily_dialog": 3223,
+          "news": 12022,
+          "gutenberg": 9481
+        }
+      },
+      "by_has_stop_words_and_source": {
+        "no": {
+          "daily_dialog": 1325,
+          "news": 3584,
+          "gutenberg": 1217
+        },
+        "yes": {
+          "daily_dialog": 28324,
+          "news": 27979,
+          "gutenberg": 28307
+        }
       }
     },
     "val": {
       "examples": 12962,
       "by_source": {
         "daily_dialog": 4342,
-        "fundus": 4405,
+        "news": 4405,
         "gutenberg": 4215
       },
       "by_context_type": {
@@ -85,13 +157,49 @@
         "4": 2856,
         "5": 2837,
         "6": 2614
+      },
+      "by_span_type_and_source": {
+        "constituent": {
+          "daily_dialog": 2173,
+          "news": 2120,
+          "gutenberg": 1858
+        },
+        "random_span": {
+          "daily_dialog": 2169,
+          "news": 2285,
+          "gutenberg": 2357
+        }
+      },
+      "by_tokenization_profile_and_source": {
+        "one_token_per_word": {
+          "daily_dialog": 3823,
+          "news": 2832,
+          "gutenberg": 2827
+        },
+        "has_multi_token_word": {
+          "daily_dialog": 519,
+          "news": 1573,
+          "gutenberg": 1388
+        }
+      },
+      "by_has_stop_words_and_source": {
+        "no": {
+          "daily_dialog": 199,
+          "news": 462,
+          "gutenberg": 182
+        },
+        "yes": {
+          "daily_dialog": 4143,
+          "news": 3943,
+          "gutenberg": 4033
+        }
       }
     },
     "test": {
       "examples": 25925,
       "by_source": {
         "daily_dialog": 8484,
-        "fundus": 9026,
+        "news": 9026,
         "gutenberg": 8415
       },
       "by_context_type": {
@@ -109,6 +217,42 @@
         "4": 5529,
         "5": 5703,
         "6": 5564
+      },
+      "by_span_type_and_source": {
+        "constituent": {
+          "daily_dialog": 4210,
+          "news": 4473,
+          "gutenberg": 3954
+        },
+        "random_span": {
+          "daily_dialog": 4274,
+          "news": 4553,
+          "gutenberg": 4461
+        }
+      },
+      "by_tokenization_profile_and_source": {
+        "one_token_per_word": {
+          "daily_dialog": 7483,
+          "news": 5563,
+          "gutenberg": 5693
+        },
+        "has_multi_token_word": {
+          "daily_dialog": 1001,
+          "news": 3463,
+          "gutenberg": 2722
+        }
+      },
+      "by_has_stop_words_and_source": {
+        "no": {
+          "daily_dialog": 375,
+          "news": 983,
+          "gutenberg": 393
+        },
+        "yes": {
+          "daily_dialog": 8109,
+          "news": 8043,
+          "gutenberg": 8022
+        }
       }
     }
   }
